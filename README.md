@@ -25,7 +25,7 @@ WordPress+Apache+PHP+MariaDB Deployment with required dependencies on CentOs7
     $ yum install ansible -y
     $ ansible --version
       
-6. Updated the hosts file under /etc/ansible directory to include the names or URL's of the servers you want to deploy. There is one example hosts file in the repository.
+6. Updated the hosts file under /etc/ansible directory to include the names or URL's of the servers i want to deploy.
     $ cd /etc/ansible
     $ ll
     $ vi hosts
