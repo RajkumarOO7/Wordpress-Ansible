@@ -41,7 +41,7 @@ WordPress+Apache+PHP+MariaDB Deployment with required dependencies on CentOs7
  9. Executing Playbook.yml
      $ ansible-playbook gitplaybook.yml
 
- 10. Adding my folders from GitHub to Ansible directory
+ 10. Cloning on Ansible
      ansible localhost -m git -a "repo=https://github.com/RajkumarOO7/Wordpress-Ansible.git dest=/etc/ansible/gitwordpress" -b
 
  11. Running Playbook.yml
