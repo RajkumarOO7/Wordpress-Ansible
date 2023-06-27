@@ -1,5 +1,4 @@
 Wordpress-Ansible-Automation
-A simple compilation of Ansible roles to install WordPress Stack on CentOs 7
 
 WordPress+Apache+PHP+MariaDB Deployment with required dependencies on CentOs7
 
@@ -7,9 +6,7 @@ Playbooks deploy a simple all-in-one WordPress configuration ready to be configu
 
 Update the hosts file under /etc/ansible directory to include the names or URL's of the servers you want to deploy. There is one example hosts file in the repository.
 
-Upload your private ssh key under this path: /home/opc/.ssh/"your_key"
-
-Set the file permissions for the key to 600 with running sudo chmod 600 ~/.ssh/id_rsa
+Uploaded private key of Controller node to authorized key in Target server
 
 Then run the playbook with the below command:
 
