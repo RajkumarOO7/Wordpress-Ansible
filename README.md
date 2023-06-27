@@ -2,8 +2,6 @@
 
 WordPress+Apache+PHP+MariaDB Deployment with required dependencies on CentOs7
 
-Playbooks deploy a simple all-in-one WordPress configuration ready to be configured after the installation.
-
 
 1. Created two instances, Controller-node and Target-server
   
