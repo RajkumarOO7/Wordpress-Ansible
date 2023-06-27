@@ -1,4 +1,3 @@
-
 # Master Task for installing and configuring MariaDB, Apache & WORDPRESS
 - name: Installing epel-release and yum-utils to download updated version of PHP
   yum: pkg={{ item }} state=present
