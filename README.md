@@ -35,7 +35,7 @@ WordPress+Apache+PHP+MariaDB Deployment with required dependencies on CentOs7
  7. Trying to ping with Target-server
     $ ansible wordpress -m ping
     
- 8. Installing Git without Playbook.yml
+ 8. Installing Git with Playbook.yml
     $ vi gitplaybook.yml
 
  9. Executing Playbook.yml
