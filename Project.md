@@ -60,7 +60,6 @@ $ cd /etc/ansible/gitwordpress
  - Installing and Configuring HTTPD server for WordPress: This task includes the tasks defined in the webserver.yml file. It is likely that the webserver.yml file contains tasks related to installing and configuring the Apache HTTP server.
  - Downloading and Configuring WordPress: This task includes the tasks defined in the wordpress.yml file. It is likely that the wordpress.yml file contains tasks related to downloading and configuring WordPress.
  - Each subtask is tagged with appropriate tags (php, database, webserver, wordpress) to allow selective execution of tasks based on their tags.
- - Note that the specific details of the subtasks, such as the contents of database.yml, webserver.yml, and wordpress.yml, are not provided in the code snippet. Those files likely contain additional tasks specific to their respective components.
  - This master task orchestrates the installation and configuration of MariaDB, Apache, PHP, and WordPress, ensuring that all the necessary components are installed and set up for a WordPress deployment.
 
  vi webserver.yml
