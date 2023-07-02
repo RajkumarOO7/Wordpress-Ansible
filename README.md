@@ -51,6 +51,8 @@ WordPress+Apache+PHP+MariaDB Deployment with required dependencies on CentOs7
   Then run the playbook with the the command 
       $ ansible-playbook wordpressplaybook.yml
 
+      the end
+
 
 
 
